@@ -1,0 +1,54 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+Console.Writeline("input first number");
+var a = Convert.ToInt(Console.ReadLine());
+Console.WriteLine("input second number");
+var b = Convert.ToInt(Console.ReadLine());
+console.writeline("Sum of two Numbers is" + (a+b));
+
+// Exercise 2: Check if a Number is Even or Odd
+Console.Writeline("input first number");
+var a = Convert.ToInt(Console.ReadLine());
+
+if(a%2 == 0)
+	console.Writeline("Number is Even");
+else
+	console.Writeline("Number is Odd");
+
+
+// Exercise 3: 
+   
+//declare an array for length 5
+int[] numbers = new int[5]
+//Read in 5 separate numbers. 
+for(int i=0; i++; i<5)
+{
+	Console.Writeline("input number " + i);
+	
+	numbers[i] = Convert.ToInt(Console.ReadLine());
+}
+
+//Calculate the average of the five numbers.
+var avg = (numbers[1]+numbers[2]+numbers[3]+numbers[4]+numbers[5])/5
+//Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+int smallestNumber =0;
+int LargestNumber = 0;
+for(int i=0; i++; i<5)
+{
+	if(numbers[i] > largestNumber)
+	{
+		largestNumber = numbers[i];
+	}
+	if(numbers[i] < smallestNumber)
+	{
+		smallestNumber = numbers[i];
+	}
+}
+
+// Write out the results found from steps b and c with a message describing what they are
+console.Writeline("Average of the five numbers is "+ avg);
+console.Writeline("Smallest of the five numbers is "+ smallestNumber);
+console.Writeline("Largest of the five numbers is "+ largestNumber);
+
+
+-- END --
